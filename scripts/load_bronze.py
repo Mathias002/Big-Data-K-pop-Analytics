@@ -62,10 +62,10 @@ def main():
         
         # Vérifier si le fichier existe
         if os.path.exists(file_path):
-            # Charger et vérifier le fichier
+            # Charge et vérifie le fichier
             df_cleaned = load_and_check_duplicates(file_path)
             
-            # Exporter les données nettoyées en Silver (temporaire)
+            # Exporte les données nettoyées en Silver de façon temporaire
             silver_path = file_path.replace("bronze", "silver")
             os.makedirs(os.path.dirname(silver_path), exist_ok=True)
             df_cleaned.to_csv(silver_path, index=False)
