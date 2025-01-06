@@ -4,6 +4,8 @@
 
 Ce projet vise à construire une pipeline de données robuste et efficace pour analyser l'industrie musicale K-Pop. L'objectif principal est de transformer des données brutes (groupes, idols, et vidéos) en informations exploitables prêtes pour une analyse approfondie et des visualisations interactives.
 
+Vous retrouverez le rendu du projet au format PDF ainsi que le rapport PowerBI dans le dossier "Doc" présent à la racine.
+
 ---
 
 ## **Objectifs Clés**
@@ -16,7 +18,7 @@ Ce projet vise à construire une pipeline de données robuste et efficace pour a
 
 ---
 
-## **Architecture du Pipeline**
+## **Architecture du Projet**
 
 1. **Couches Bronze, Silver et Gold** :
    - Bronze : Données brutes chargées depuis des fichiers CSV.
@@ -57,4 +59,8 @@ Ce projet vise à construire une pipeline de données robuste et efficace pour a
 ## **Conclusion**
 
 Ce projet met en œuvre des techniques avancées de traitement des données pour décrypter les dynamiques de l'industrie K-Pop. Il fournit une base solide pour des analyses futures, tout en identifiant les facteurs de popularité et les défis de longévité.
+
+Nous vous souhaitons bon courage et de bonnes corrections :)
+
+Groupe 8
 
